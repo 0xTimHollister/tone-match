@@ -1,0 +1,35 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Tone Match Project Rules
+
+## Project Structure
+- React components should be organized in the popup directory for the extension UI
+- TypeScript is used throughout the project for type safety
+- WXT handles browser extension-specific configuration
+- Entry points include popup, background script, and content script
+
+## Coding Patterns
+- Use functional components with hooks for React
+- Prefer const assertions for type safety
+- Keep component files focused on a single responsibility
+- Use CSS modules for component styling
+
+## Development Workflow
+- Run `bun run dev` to start the development server
+- Run `bun run build` to create production build
+- Memory bank should be updated with project progress
+
+## Testing and Quality
+- Test any changes on Chrome and Firefox
+- Ensure responsive design for popup UI elements
+- Follow consistent code formatting and style
+- Document complex logic with comments
+
+## Extension-Specific
+- Content scripts should be non-intrusive to user experience
+- Background scripts should handle heavy processing
+- Popup UI should be intuitive and user-friendly
+- Follow browser extension security best practices
